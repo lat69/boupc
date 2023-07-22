@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("imbck/back.jpeg");
+    background-size: cover;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    padding: 1em;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'georgia';
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    text-align: center;
+    font-family: 'georgia';
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5em;
+    margin-top: 0rem;
+
+}
+
+li:hover {
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'georgia';
+    color: #ec23b0;
+    box-shadow: 5px 5px 20px 5px #ec23b0
+}
+
+.product {
+    background-image: url("pro.jpeg");
+
+    margin-top: 5rem;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 0 1em 1em 0;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    max-width: 300px;
+    border-radius: 1rem;
+
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+.product button {
+    background-color: #5b1d9e;
+    color: #ded6d6;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.product button:hover {
+    background-color: #bd1896;
+    box-shadow: 5px 5px 20px 5px #db1d1d;
+    border-radius: 8px;
+}
+
+aside {
+    background-color: #eee;
+    float: right;
+    width: 25%;
+}
+
+#cart {
+    padding: 1em;
+}
+
+#total {
+    text-align: right;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.contact {
+    margin-right: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 20rem;
+}
+
+p {
+    font-family: 'georgia';
+}
